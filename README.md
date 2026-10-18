@@ -58,6 +58,18 @@ Bei Smart-Home-Geräten findet man häufig einzelne Hinweise in Foren, Issues od
 
 Diese Informationen sollen hier an einer Stelle zusammengeführt und bei neuen Erkenntnissen aktualisiert werden.
 
+
+## Weitere Praxistests
+
+### Automationen
+
+- [Warmwasser mit Home Assistant regeln – Zeitfenster, Hysterese und Failsafe](automationen/warmwasser-zeitplan-hysterese-failsafe.md)
+- [PV-Überschuss steuern – Prioritäten, Hysterese und Fallbacks](automationen/pv-ueberschuss-prioritaeten-fallbacks.md)
+
+### Homelab / Datenrettung
+
+- [QNAP RAID1-Datenrettung unter Linux – read-only statt Rebuild](homelab/qnap-raid1-datenrettung-readonly.md)
+
 ## Neue Praxistests
 
 Für neue Geräte gibt es eine einheitliche Vorlage:
