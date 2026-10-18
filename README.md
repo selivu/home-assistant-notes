@@ -22,6 +22,8 @@ Der Schwerpunkt liegt nicht auf theoretischen Kompatibilitätslisten, sondern au
 | Gerät | Kategorie | Integration | Status | Stand |
 |---|---|---|---|---|
 | [Klarstein DryFy Connect 50](geraete/klarstein-dryfy-connect-50.md) | Entfeuchter | Tuya Local | ![praktisch getestet](https://img.shields.io/badge/Status-praktisch%20getestet-success) | Oktober 2026 |
+| [Bluetti AC200MAX](geraete/bluetti-ac200max-bluetooth-proxy.md) | Powerstation | hassio-bluetti-bt + ESPHome Bluetooth Proxy | ![praktisch getestet](https://img.shields.io/badge/Status-praktisch%20getestet-success) | August 2026 |
+| [ESPHome Bluetooth Proxy](grundlagen/esphome-bluetooth-proxy.md) | Grundlage / Infrastruktur | ESPHome | ![praktisch getestet](https://img.shields.io/badge/Status-praktisch%20getestet-success) | August 2026 |
 
 ### Statuskennzeichnungen
 
