@@ -1,5 +1,9 @@
 # SELIVU – Home Assistant Praxistests
 
+![Sprache: Deutsch](https://img.shields.io/badge/Sprache-Deutsch-informational)
+![Praxisfokus](https://img.shields.io/badge/Fokus-Praxistests-success)
+![Datenschutz](https://img.shields.io/badge/Datenschutz-keine%20sensiblen%20Daten-blue)
+
 Dieses Repository sammelt **praxisnah getestete Home-Assistant-Integrationen, Gerätekonfigurationen und Fehlerbilder**.
 
 Der Schwerpunkt liegt nicht auf theoretischen Kompatibilitätslisten, sondern auf nachvollziehbaren Erfahrungswerten aus realen Tests. Die Anleitungen sollen auch für Anwender verständlich sein, die Home Assistant erst seit kurzer Zeit nutzen.
@@ -13,12 +17,25 @@ Der Schwerpunkt liegt nicht auf theoretischen Kompatibilitätslisten, sondern au
 - **Keine Zugangsdaten:** Beispielwerte sind bewusst neutral oder anonymisiert.
 - **Stand dokumentiert:** Integrationen und Cloud-Dienste können sich ändern; deshalb wird der jeweilige Testzeitpunkt angegeben.
 
-## Geräte
+## Geräteübersicht
 
-### Entfeuchter
+| Gerät | Kategorie | Integration | Status | Stand |
+|---|---|---|---|---|
+| [Klarstein DryFy Connect 50](geraete/klarstein-dryfy-connect-50.md) | Entfeuchter | Tuya Local | ![praktisch getestet](https://img.shields.io/badge/Status-praktisch%20getestet-success) | Oktober 2026 |
 
-- [Klarstein DryFy Connect 50 – Home Assistant mit Tuya Local](geraete/klarstein-dryfy-connect-50.md)  
-  **Status:** praktisch getestet · **Stand:** Oktober 2026
+### Statuskennzeichnungen
+
+![praktisch getestet](https://img.shields.io/badge/Status-praktisch%20getestet-success)  
+Die beschriebene Funktion oder Konfiguration wurde im realen Betrieb ausprobiert.
+
+![teilweise getestet](https://img.shields.io/badge/Status-teilweise%20getestet-yellow)  
+Ein Teil der Funktionen wurde geprüft, andere Punkte sind noch offen.
+
+![sichtbar](https://img.shields.io/badge/Status-sichtbar-lightgrey)  
+Die Funktion oder Entität ist vorhanden, wurde aber noch nicht praktisch getestet.
+
+![nicht getestet](https://img.shields.io/badge/Status-nicht%20getestet-red)  
+Es gibt derzeit keine belastbare Aussage zur Funktion.
 
 ## Was bedeutet „praktisch getestet“?
 
@@ -38,6 +55,14 @@ Bei Smart-Home-Geräten findet man häufig einzelne Hinweise in Foren, Issues od
 - Welche Schritte sind für Einsteiger nötig?
 
 Diese Informationen sollen hier an einer Stelle zusammengeführt und bei neuen Erkenntnissen aktualisiert werden.
+
+## Neue Praxistests
+
+Für neue Geräte gibt es eine einheitliche Vorlage:
+
+- [Vorlage für einen neuen Praxistest](vorlagen/praxistest-template.md)
+
+Dadurch bleiben Aufbau, Teststatus, Datenschutz und Nachvollziehbarkeit bei allen späteren Einträgen vergleichbar.
 
 ## Mitmachen
 
